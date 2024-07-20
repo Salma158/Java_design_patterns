@@ -6,5 +6,11 @@ public class Main {
         EagerSingleton eagerSingleton2 = EagerSingleton.getInstance();
 
         System.out.println(eagerSingleton1 == eagerSingleton2);
+
+        LazySingletonUsingDCL lazySingletonUsingDCL1 = LazySingletonUsingDCL.getInstance();
+        LazySingletonUsingDCL lazySingletonUsingDCL2 = LazySingletonUsingDCL.getInstance();
+
+        System.out.println(lazySingletonUsingDCL1 == lazySingletonUsingDCL2);
+
     }
 }
