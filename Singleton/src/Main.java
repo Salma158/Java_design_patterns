@@ -12,5 +12,15 @@ public class Main {
 
         System.out.println(lazySingletonUsingDCL1 == lazySingletonUsingDCL2);
 
+        LazySingletonUsingIH lazySingletonUsingIH1 = LazySingletonUsingIH.getInstance();
+        LazySingletonUsingIH lazySingletonUsingIH2 = LazySingletonUsingIH.getInstance();
+
+        System.out.println(lazySingletonUsingIH1 == lazySingletonUsingIH2);
+
+        SingletonUsingEnum singletonUsingEnum1 = SingletonUsingEnum.INSTANCE;
+        SingletonUsingEnum singletonUsingEnum2 = SingletonUsingEnum.INSTANCE;
+
+        System.out.println(singletonUsingEnum1 == singletonUsingEnum2);
+
     }
 }
