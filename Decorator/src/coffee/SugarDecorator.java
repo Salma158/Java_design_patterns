@@ -7,7 +7,7 @@ public class SugarDecorator extends CoffeeDecorator {
 
     @Override
     public String getDescription() {
-        return decoratedCoffee.getDescription() + ",with Sugar";
+        return decoratedCoffee.getDescription() + " ,with Sugar";
     }
 
     @Override
